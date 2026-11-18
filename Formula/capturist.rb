@@ -5,7 +5,6 @@ class Capturist < Formula
   sha256 "fd9cb4bbf39ed4333369ebe5d0f4fb082d305f4913ca118afe8281c1885b99be"
   license "MIT"
 
-  depends_on :macos
   depends_on macos: :sonoma
 
   def install
