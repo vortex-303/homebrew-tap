@@ -1,8 +1,8 @@
 class Capturist < Formula
   desc "CLI and local MCP server for Capturist: your Mac screenshots for AI agents"
   homepage "https://capturist.nodetools.org/cli/"
-  url "https://github.com/vortex-303/capturist-mcp/releases/download/v0.5.0/capturist-cli.zip"
-  sha256 "59bcd5ff9174b62b6115fe505af4e67e124d6dac9dec41c013ff52ee28d9b472"
+  url "https://github.com/vortex-303/capturist-mcp/releases/download/v0.5.1/capturist-cli.zip"
+  sha256 "e99d17499a27a6b6659cf4fe345c739a860444b05b64338ba6d0b68ba3b907c3"
   license "MIT"
 
   depends_on macos: :sonoma

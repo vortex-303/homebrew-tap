@@ -1,6 +1,6 @@
 cask "capturist-complete" do
-  version "1.1.0,5"
-  sha256 "24eac8d7aac3d093970b8c360a93e567bd68da2098b619ebf6fe6e7b71f97f33"
+  version "1.1.0,7"
+  sha256 "9e245af651688de6d6f2685afc78ac961f83d8baae5a1e8cc61ef5280ed3c426"
 
   url "https://capturist.nodetools.org/download/CapturistComplete-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Capturist Complete"
