@@ -1,8 +1,8 @@
 class Capturist < Formula
   desc "CLI and local MCP server for Capturist: your Mac screenshots for AI agents"
   homepage "https://capturist.nodetools.org/cli/"
-  url "https://github.com/vortex-303/capturist-mcp/releases/download/v0.4.2/capturist-cli.zip"
-  sha256 "fd9cb4bbf39ed4333369ebe5d0f4fb082d305f4913ca118afe8281c1885b99be"
+  url "https://github.com/vortex-303/capturist-mcp/releases/download/v0.5.0/capturist-cli.zip"
+  sha256 "59bcd5ff9174b62b6115fe505af4e67e124d6dac9dec41c013ff52ee28d9b472"
   license "MIT"
 
   depends_on macos: :sonoma
@@ -14,9 +14,10 @@ class Capturist < Formula
   def caveats
     <<~EOS
       Connect your AI apps:
-        capturist setup claude-desktop   # Claude (desktop app)
-        capturist setup chatgpt          # ChatGPT (desktop app) and Codex
-        capturist setup claude-code      # Claude Code
+        capturist setup detect --all     # find and connect every AI app on this Mac
+        capturist setup hermes           # or one: claude-desktop, chatgpt, claude-code, codex,
+                                         # gemini, qwen, copilot, cursor, windsurf, vscode, cline,
+                                         # opencode, lmstudio (steps: capturist.nodetools.org/ai/)
       Needs Capturist: https://capturist.nodetools.org
     EOS
   end
